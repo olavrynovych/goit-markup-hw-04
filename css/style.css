@@ -57,7 +57,6 @@ img {
 
 .what-we-do-container {
   display: flex;
-  /* margin-top: 50px; */
 }
 
 .our-team-container {
@@ -65,7 +64,7 @@ img {
 }
 .header .container {
   display: flex;
-  /* align-items: center;    */
+  align-items: center;
 }
 .container {
   width: 1200px;
@@ -100,16 +99,10 @@ img {
 .address-link {
   font-style: normal;
 }
-/* .mail-link::before {
-  content: ' ';
-  background-image: url('./images/sprite.svg#icon-envelope');
 
-  width: 16px;
-  height: 12px;
-} */
 .envelope-icon {
-  width: 16px;
-  height: 12px;
+  width: 18px;
+  height: 16px;
 }
 .tel-link:hover,
 .tel-link:focus,
@@ -126,9 +119,10 @@ img {
   fill: #2196f3;
 }
 .icon-cell-phone {
-  width: 10px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 }
+
 .active-link {
   color: #2196f3;
 }
